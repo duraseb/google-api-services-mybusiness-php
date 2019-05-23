@@ -1,0 +1,23 @@
+{
+    "name": "duraseb/google-api-services-mybusiness-php",
+    "type": "library",
+    "version": "4.4.0",
+    "description": "PHP library for Google My Business API",
+    "keywords": [
+        "google my business API",
+        "mybusiness SDK"
+    ],
+    "homepage": "https://github.com/duraseb/google-api-services-mybusiness-php",
+    "license": "Apache-2.0",
+    "support": {
+        "docs": "https://developers.google.com/my-business/content/support"
+    },
+    "require": {
+        "google/apiclient": ">=2.0"
+    },
+    "autoload": {
+        "files": [
+            "src/MyBusiness.php"
+        ]
+    }
+}
